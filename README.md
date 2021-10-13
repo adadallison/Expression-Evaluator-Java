@@ -1,6 +1,6 @@
 # Expression-Evaluator-Java
 
-Project Overview:
+## Project Overview:
 This Expression Evaluator, does exactly what it sounds like, it evaluates mathema+cal expressions. This can also be referred to a Calculator. The calculator programmed here, evaluates addi+on, subtrac+on, mul+plica+on, division, exponents, and even takes parenthesis into account. Since it takes all the previously stated operators into account when mathema+cally commu+ng an expression, it is also capable of using PEMDAS, which is the order (from leW to right) that mathema+cal expressions and equa+ons are solved in: Parenthesis, Exponents, Mul+plica+on, Division, Addi+on, and Subtrac+on. This expression evaluator is also linked to a GUI (Graphic User Interface) calculator; which makes it easier for the user to simply use this code as if they were using an actual calculator.
 
 How to Build/Import your Project
