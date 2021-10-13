@@ -6,4 +6,4 @@ This Expression Evaluator, does exactly what it sounds like, it evaluates mathem
 ## How to Build/Import Project:
 Once you copy the HTTP link from GitHub, from my repository, you can use your terminal to perform git clone and it will clone a repository into a new directory. An easier way might be to go to GitHub and search for the GitHub repository link (https://github.com/adadallison/Expression-Evaluator-Java). If you press code, now you can see ‘Download ZIP files,’ which will allow the folder to directly download to your computer. To import the files correctly, you can open your IDE and selected “import project,” select the folder and be sure to select the calculator folder as the source root of your project. The project should be named “calculator.”
 
-**read more in depth overview of project the Documentation PDF
+***read more in depth overview of project the Documentation PDF
