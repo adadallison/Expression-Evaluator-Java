@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.csc413.calculator</OriginalElement>
+  <nodes>
+    <node x="1800.0" y="217.0">edu.csc413.calculator.operators.ClosedOperator</node>
+    <node x="630.0" y="362.0">edu.csc413.calculator.evaluator.Result</node>
+    <node x="318.0" y="362.0">edu.csc413.calculator.evaluator.EvaluatorUI</node>
+    <node x="300.0" y="217.0">edu.csc413.calculator.operators.AddOperator</node>
+    <node x="1543.0" y="362.0">edu.csc413.calculator.exceptions.InvalidTokenException</node>
+    <node x="900.0" y="217.0">edu.csc413.calculator.operators.OpenOperator</node>
+    <node x="958.0" y="362.0">edu.csc413.calculator.evaluator.Operand</node>
+    <node x="600.0" y="217.0">edu.csc413.calculator.operators.DivideOperator</node>
+    <node x="0.0" y="362.0">edu.csc413.calculator.evaluator.Evaluator</node>
+    <node x="1200.0" y="217.0">edu.csc413.calculator.operators.SubtractOperator</node>
+    <node x="896.5" y="0.0">edu.csc413.calculator.operators.Operator</node>
+    <node x="1500.0" y="217.0">edu.csc413.calculator.operators.MultiplyOperator</node>
+    <node x="1190.0" y="362.0">edu.csc413.calculator.evaluator.EvaluatorDriver</node>
+    <node x="0.0" y="217.0">edu.csc413.calculator.operators.PowerOperator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.csc413.calculator.operators.ClosedOperator" target="edu.csc413.calculator.operators.Operator" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="1940.0" y="192.0" />
+      <point x="1040.0" y="192.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.DivideOperator" target="edu.csc413.calculator.operators.Operator" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="740.0" y="192.0" />
+      <point x="1040.0" y="192.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.AddOperator" target="edu.csc413.calculator.operators.Operator" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="440.0" y="192.0" />
+      <point x="1040.0" y="192.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.SubtractOperator" target="edu.csc413.calculator.operators.Operator" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="1340.0" y="192.0" />
+      <point x="1040.0" y="192.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.OpenOperator" target="edu.csc413.calculator.operators.Operator" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.MultiplyOperator" target="edu.csc413.calculator.operators.Operator" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="1640.0" y="192.0" />
+      <point x="1040.0" y="192.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="edu.csc413.calculator.operators.PowerOperator" target="edu.csc413.calculator.operators.Operator" relationship="GENERALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="140.0" y="192.0" />
+      <point x="1040.0" y="192.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.45117297050656785" showDependencies="false" x="763.5511072665201" y="363.7310328092318" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
